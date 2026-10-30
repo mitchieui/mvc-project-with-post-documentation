@@ -1,0 +1,25 @@
+# .NET build output
+**/bin/
+**/obj/
+artifacts/
+TestResults/
+
+# Local IDE and user settings
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+**/appsettings.Local.json
+*.pfx
+*.p12
+
+# Operating system and temporary Office files
+.DS_Store
+Thumbs.db
+~$*

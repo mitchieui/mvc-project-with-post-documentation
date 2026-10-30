@@ -1,0 +1,15 @@
+@Model MyMvcApp.Models.Student
+
+<h1>@ViewBag.KahitAnongTitle</h1>
+<h3>@ViewData["KahitAnoUlet"]</h3>
+<div>
+    <span>
+        <h2>Student Number</h1> 
+        <label>@Model.StudentNumber</label>
+    </span>
+    <span>
+        <h2>Name</h1> 
+        <label>@String.Format("{0} {1} {2}",Model.FirstName, Model.MiddleName, Model.LastName) </label>
+    </span>
+</div>
+
